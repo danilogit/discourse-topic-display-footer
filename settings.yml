@@ -1,0 +1,3 @@
+footer_html:
+    type: string
+    default: "<p>This text wiil apper below each topic.</p>"
