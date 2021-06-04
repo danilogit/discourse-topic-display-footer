@@ -12,7 +12,7 @@ export default {
 
             console.log(post, helper, settings);
             const topic_footer_html =  settings.footer_html;
-            const cooked = $(post);
+            const cooked = $(post, "#post_1");
             cooked.append(topic_footer_html)
 
           },
