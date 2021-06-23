@@ -10,9 +10,9 @@ export default {
         api.decorateCookedElement(
           (post, helper) => {
 
-            console.log(post, helper, settings);
+            console.log("POST", post);
             const topic_footer_html =  settings.footer_html;
-            const cooked = $(".post-actions"); //$(post,"#post_1"); //$(".regular .contents")[0]; //$(post,"#post_1")
+            const cooked = $(post,"#post_1"); //$(".regular .contents")[0]; //$(post,"#post_1")
             
             cooked.append(topic_footer_html);
 
