@@ -24,7 +24,7 @@ export default {
           },
           {
             id: "topic-display-footer",
-            onlyStream: true
+            onlyStream: false
           }
         );
       } catch (error) {
