@@ -18,13 +18,15 @@ export default {
             if (firstPost) {
                cooked.append(topic_footer_html);
                firstPost = false;
+            } else {
+               firstPost = true;
             }
               
 
           },
           {
             id: "topic-display-footer",
-            onlyStream: false
+            onlyStream: true
           }
         );
       } catch (error) {
