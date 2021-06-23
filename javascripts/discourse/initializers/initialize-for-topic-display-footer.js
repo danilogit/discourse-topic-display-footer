@@ -14,7 +14,7 @@ export default {
             const topic_footer_html =  settings.footer_html;
             const cooked = $(".post-actions"); //$(post,"#post_1"); //$(".regular .contents")[0]; //$(post,"#post_1")
             
-            cooked.prepend(topic_footer_html)
+            cooked.append(topic_footer_html);
 
           },
           {
